@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e5edfe;
+    height: 40px;
+    border: 1px solid #3498db;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+}
+.column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+}
+.w15 {
+    width: 15%;
+}
+.w20 {
+    width: 20%;
+}
+.w10 {
+    width: 10%;
+}
+.w25 {
+    width: 25%;
+}
+.clickLink {
+    color: #1972F8;
+    cursor: pointer;
+}
+.r20 {
+    padding-right: 20px;
+}
+.w55 {
+    width: 55%;
+}
+.textLeft {
+    text-align: left;
+}

@@ -1,0 +1,93 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e5edfe;
+    height: 40px;
+    border: 1px solid #3498db;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+}
+.column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+}
+.w15 {
+    width: 15%;
+}
+.w20 {
+    width: 20%;
+}
+.w10 {
+    width: 10%;
+}
+.w25 {
+    width: 25%;
+}
+.clickLink {
+    color: #1972F8;
+    cursor: pointer;
+}
+.r20 {
+    padding-right: 20px;
+}
+:global(:where(.css-dev-only-do-not-override-15rg2km).ant-modal .ant-modal-content) {
+    position: relative;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+    pointer-events: auto;
+    padding: 0;
+}
+:global(:where(.css-dev-only-do-not-override-15rg2km).ant-modal .ant-modal-header) {
+    background: #e5edfe;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+:global(:where(.css-dev-only-do-not-override-15rg2km).ant-modal .ant-modal-body) {
+    padding: 30px 10px;
+}
+:global(:where(.css-dev-only-do-not-override-15rg2km).ant-modal .ant-modal-footer) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+:global(:where(.css-dev-only-do-not-override-15rg2km).ant-modal .ant-modal-footer .ant-btn+.ant-btn:not(.ant-dropdown-trigger)) {
+    border-radius: 4px;
+    background: #308CC8;
+    margin-left: 20px;
+}
+:global(:where(.css-dev-only-do-not-override-15rg2km).ant-btn-default) {
+    background-color: #A1A1A1;
+    border-color: #D5D5D5;
+    box-shadow: none;
+    color: #000000;
+}
+
+:global(:where(.css-dev-only-do-not-override-15rg2km).ant-btn-default:not(:disabled):hover) {
+    background-color: #A1A1A1;
+    border-color: #D5D5D5;
+    box-shadow: none;
+    color: #000000;
+    opacity: 0.7;
+}
+:global(:where(.css-dev-only-do-not-override-15rg2km).ant-btn-primary:not(:disabled):hover) {
+    opacity: 0.7;
+}
+:global(:where(.css-dev-only-do-not-override-15rg2km).ant-modal .ant-modal-close) {
+    display: none;
+}
+:global(:where(.css-dev-only-do-not-override-15rg2km).ant-input-number-group .ant-input-number-group-addon) {
+    border: 1px solid #619FFC;
+}
