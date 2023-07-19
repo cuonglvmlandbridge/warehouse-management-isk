@@ -25,7 +25,7 @@ export default function Detail({isAdmin, setShowDetail, historyTrademark}) {
             <div className={styles.w15}>{dayjs(updateDateTime).format('YYYY/MM/DD HH:mm')}</div>
             <div className={styles.w15}>{userUpdate}</div>
             <div className={styles.w15}>{quantity}</div>
-            <div className={`${styles.w55} ${styles.textLeft}`}>{description}</div>
+            <div className={`${styles.w55} ${styles.textLeft}`}> <div dangerouslySetInnerHTML={{ __html: description }} /></div>
           </div>
         ))
       }

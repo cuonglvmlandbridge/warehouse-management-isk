@@ -91,3 +91,6 @@
 :global(:where(.css-dev-only-do-not-override-15rg2km).ant-input-number-group .ant-input-number-group-addon) {
     border: 1px solid #619FFC;
 }
+.colorRed {
+    color: red;
+}

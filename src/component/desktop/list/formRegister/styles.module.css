@@ -78,3 +78,6 @@
  display: inline-flex;
  gap: 20px;
 }
+:global(:where(.css-dev-only-do-not-override-15rg2km).ant-input:placeholder-shown) {
+  width: 230px;
+}

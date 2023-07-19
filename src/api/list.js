@@ -22,3 +22,23 @@ export const updateRecord = async (body, onSuccess) => {
     console.log(error);
   });
 };
+
+export const updateRecords = async (body, onSuccess) => {
+  kintone.api(kintone.api.url('/k/v1/records', true), 'PUT', body, function(resp) {
+    // success
+    onSuccess && onSuccess(resp)
+  }, function(error) {
+    // error
+    console.log(error);
+  });
+};
+
+export const deleteRecords = async (body, onSuccess) => {
+  kintone.api(kintone.api.url('/k/v1/records', true), 'DELETE', body, function(resp) {
+    // success
+    onSuccess && onSuccess(resp)
+  }, function(error) {
+    // error
+    console.log(error);
+  });
+};
